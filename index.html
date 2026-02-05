@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>OpenLearn — Learn anything</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<a class="logo" href="#">Open<span>Learn</span></a>
+				<nav class="main-nav">
+					<a href="Courses.html">Courses</a>
+					<a href="#about">About</a>
+					<a href="index.html" class="cta">Get Started</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container hero-inner">
+					<div class="hero-copy">
+						<h1>Learn anything — at your pace</h1>
+						<p class="lead">Free courses, expert-created content, and interactive exercises to help you grow.</p>
+
+						<form class="search-form" role="search">
+							<input type="search" placeholder="Search courses, topics or skills" aria-label="Search courses" />
+							<button type="submit">Search</button>
+						</form>
+
+						<div class="hero-stats">
+							<div>
+								<strong>1,200+</strong>
+								<span>Courses</span>
+							</div>
+							<div>
+								<strong>200k+</strong>
+								<span>Learners</span>
+							</div>
+							<div>
+								<strong>Free</strong>
+								<span>Forever</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="hero-visual">
+						<div class="card-preview">
+							<div class="card-image"></div>
+							<div class="card-body">
+								<h3>Introduction to Web Design</h3>
+								<p>Build responsive sites with modern HTML & CSS.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="courses" class="courses container">
+				<h2>Popular Courses</h2>
+				<div class="course-grid">
+					<article class="course-card">
+						<div class="thumb thumb-1"></div>
+						<div class="info">
+							<h3>Responsive Web Design</h3>
+							<p>Learn to create websites that look great on any device.</p>
+							<div class="meta">4 lessons • Beginner</div>
+						</div>
+					</article>
+
+					<article class="course-card">
+						<div class="thumb thumb-2"></div>
+						<div class="info">
+							<h3>JavaScript Essentials</h3>
+							<p>Core programming concepts with hands-on exercises.</p>
+							<div class="meta">8 lessons • Intermediate</div>
+						</div>
+					</article>
+
+					<article class="course-card">
+						<div class="thumb thumb-3"></div>
+						<div class="info">
+							<h3>Data Visualisation</h3>
+							<p>Create compelling charts and dashboards.</p>
+							<div class="meta">6 lessons • Beginner</div>
+						</div>
+					</article>
+
+					<article class="course-card">
+						<div class="thumb thumb-4"></div>
+						<div class="info">
+							<h3>Machine Learning Basics</h3>
+							<p>Understand models and pipelines with practical projects.</p>
+							<div class="meta">10 lessons • Advanced</div>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section id="about" class="container about">
+				<div class="about-grid">
+					<div>
+						<h2>Open and Accessible Learning</h2>
+						<p>OpenLearn provides free, high-quality learning resources across many subjects. Our mission is to make learning accessible to everyone.</p>
+						<p><a class="btn-outline" href="#contact">Learn more</a></p>
+					</div>
+					<div class="feature-list">
+						<div class="feature">
+							<strong>Flexible</strong>
+							<p>Learn at your own pace, anytime, anywhere.</p>
+						</div>
+						<div class="feature">
+							<strong>Expert-led</strong>
+							<p>Courses crafted by experienced educators.</p>
+						</div>
+						<div class="feature">
+							<strong>Community</strong>
+							<p>Join learners and collaborate on projects.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-inner">
+				<div>© <span id="year"></span> OpenLearn</div>
+				<div class="footer-links">
+					<a href="#">Privacy</a>
+					<a href="#">Terms</a>
+					<a href="#contact">Contact</a>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			// small script to set year
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
+	</body>
+</html>
