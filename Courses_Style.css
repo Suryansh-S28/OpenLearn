@@ -58,4 +58,34 @@ a{color:inherit;text-decoration:none}
 .thumb-2{background:linear-gradient(135deg,#ffd6a5,#ffb4a2)}
 .thumb-3{background:linear-gradient(135deg,#e0c3fc,#8ec5fc)}
 .thumb-4{background:linear-gradient(135deg,#ff9a9e,#fecfef)}
+.thumb-5{background:linear-gradient(135deg,#a1c4fd,#c2e9fb)}
+.thumb-6{background:linear-gradient(135deg,#fbc2eb,#a6c1ee)}
+.thumb-7{background:linear-gradient(135deg,#f6d365,#fda085)}
+.thumb-8{background:linear-gradient(135deg,#84fab0,#8fd3f4)}
+.thumb-9{background:linear-gradient(135deg,#a18cd1,#fbc2eb)}
+.thumb-10{background:linear-gradient(135deg,#f093fb,#f5576c)}
+.thumb-11{background:linear-gradient(135deg,#43e97b,#38f9d7)}		
+.thumb-12{background:linear-gradient(135deg,#30cfd0,#330867)}
+.thumb-13{background:linear-gradient(135deg,#a1c4fd,#c2e9fb)}
+.thumb-14{background:linear-gradient(135deg,#fbc2eb,#a6c1ee)}
+.thumb-15{background:linear-gradient(135deg,#f6d365,#fda085)}
+.thumb-16{background:linear-gradient(135deg,#84fab0,#8fd3f4)}
 
+
+#searchResults {
+  background: #fbfbfb;
+  border-radius: 8px;
+  margin-top: 6px;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.search-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ffffff;
+}
+
+.search-item:hover {
+  background: #f8f5f5;
+}

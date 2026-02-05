@@ -6,6 +6,7 @@
 		<title>OpenLearn — Learn anything</title>
 		<link rel="stylesheet" href="style.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+		
 	</head>
 	<body>
 		<header class="site-header">
@@ -26,10 +27,21 @@
 						<h1>Learn anything — at your pace</h1>
 						<p class="lead">Free courses, expert-created content, and interactive exercises to help you grow.</p>
 
-						<form class="search-form" role="search">
-							<input type="search" placeholder="Search courses, topics or skills" aria-label="Search courses" />
-							<button type="submit">Search</button>
-						</form>
+					<form class="search-form" role="search" onsubmit="return false;">
+
+<div class="search-wrapper">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search courses..."
+    autocomplete="off"
+  />
+
+  <div id="suggestions" class="suggestions-box"></div>
+</div>
+
+
+
 
 						<div class="hero-stats">
 							<div>
@@ -140,5 +152,9 @@
 			// small script to set year
 			document.getElementById('year').textContent = new Date().getFullYear();
 		</script>
+		<script src="Backend.js"></script>
+        <script src="data.js"></script>
+        <script src="search.js"></script>
+
 	</body>
 </html>

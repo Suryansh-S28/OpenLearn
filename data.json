@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Responsive Web Design",
+    "description": "Learn to create websites that look great on any device",
+    "level": "Beginner",
+    "lessons": 4,
+    "link": "Courses.html#responsive-web-design"
+  },
+  {
+    "title": "JavaScript Essentials",
+    "description": "Core programming concepts with hands-on exercises",
+    "level": "Intermediate",
+    "lessons": 8,
+    "link": "Courses.html#javascript-essentials"
+  },
+  {
+    "title": "Data Visualisation",
+    "description": "Create compelling charts and dashboards",
+    "level": "Beginner",
+    "lessons": 6,
+    "link": "Courses.html#data-visualisation"
+  },
+  {
+    "title": "Machine Learning Basics",
+    "description": "Understand models and pipelines with practical projects",
+    "level": "Advanced",
+    "lessons": 10,
+    "link": "Courses.html#ml-basics"
+  },
+  {
+    "title": "Python for Data Science",
+    "description": "Learn Python programming with a focus on data analysis and visualization.",
+    "level": "Intermediate",
+    "lessons": 9,
+    "link": "Courses.html#python-for-data-science"
+},
+{
+  "title": "Data Science",
+ "description": "Learn data science concepts and techniques with a focus on data analysis and visualization.",  
+    "level": "Intermediate", 
+    "lessons": 9,
+    "link": "Courses.html#data-science" 
+},
+{
+    "title":"C++ Programming",
+    "description":"Learn C++ programming with a focus on object-oriented design and memory management.",
+    "level":"Intermediate",
+    "lessons": 10,
+    "link":"Courses.html#c++-programming"
+
+},
+{
+    "title":"ai & Machine Learning",
+    "description":"Learn AI and machine learning concepts and techniques with hands-on projects.",
+    "level":"Advanced",
+    "lessons": 12,
+    "link":"Courses.html#ai-machine-learning"
+},
+{
+    "title":"Cloud Computing",
+    "description":"Learn cloud computing concepts and services with hands-on labs.",
+    "level":"Intermediate",
+    "lessons": 8,
+    "link":"Courses.html#cloud-computing"
+}
+
+
+
+
+
+
+
+
+]
