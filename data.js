@@ -1,16 +1,20 @@
-page: "courses/java.html"
 const courses = [
   {
     title: "Java Course",
+    slug: "java",
     keywords: ["java", "java course", "core java"],
     page: "./courses/java.html"
   },
   {
     title: "Python for Beginners",
-    page: "courses/python.html"
+    slug: "python",
+    keywords: ["python", "python course", "learn python"],
+    page: "./courses/python.html"
   },
   {
     title: "Machine Learning Basics",
-    page: "courses/ml.html"
+    slug: "ml",
+    keywords: ["machine learning", "ml basics", "intro to ml"],
+    page: "./courses/ml.html"   
   }
 ];
