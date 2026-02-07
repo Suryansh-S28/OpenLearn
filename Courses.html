@@ -21,179 +21,42 @@
 			</div>
 		</header>
         <header class="site-header">
-  ...
 </header>
 
         <section id="courses" class="courses container">
 				<h2>All Popular Courses</h2>
-				<div class="course-grid">
-                    <a href="Courses/Java.html">
-					<article class="course-card" id="responsive-web-design">
+                 <main class="container courses-main">
+    <section class="resources-hero">
+      <h1>Free Resources</h1>
+      <p class="lead">Browse and search all free courses and resources available on OpenLearn.</p>
 
-						<div class="thumb thumb-1"></div>
-						<div class="info">
-							<h3>Responsive Web Design</h3>
-							<p>Learn to create websites that look great on any device.</p>
-							<div class="meta">4 lessons • Beginner</div>
-						</div>
-					</article>
+      <div class="filter-controls">
+            <div class="filters-row">
+                <label class="search-input-wrapper">
+                    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M21 21l-4.35-4.35" stroke="#9AAED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle cx="11" cy="11" r="6" stroke="#9AAED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle>
+                    </svg>
+                    <input id="resSearch" class="search-input" placeholder="Search resources, e.g. Java, ML..." aria-label="Search resources" />
+                </label>
+                <select id="levelFilter" class="select-filter" aria-label="Filter by level">
+          <option value="">All levels</option>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+                <button id="clearFilters" class="btn-outline" type="button">Clear</button>
+            </div>
+            <div id="tagRow" class="tag-row" aria-label="Filter by tags"></div>
+      </div>
+    </section>
 
-                            </a>
-                         <a href="index.html">   
-					<article class="course-card" id="javascript-essentials">
-						<div class="thumb thumb-2"></div>
-						<div class="info">
-							<h3>JavaScript Essentials</h3>
-							<p>Core programming concepts with hands-on exercises.</p>
-							<div class="meta">8 lessons • Intermediate</div>
-						</div>
-					</article>
-                    </a>
-                     <a href="index.html">    
-					<article class="course-card" id="data-visualisation">
-						<div class="thumb thumb-3"></div>
-						<div class="info">
-							<h3>Data Visualisation</h3>
-							<p>Create compelling charts and dashboards.</p>
-							<div class="meta">6 lessons • Beginner</div>
-						</div>
-					</article>
+        <section class="resources-section">
+            <div id="resourcesList" class="resources-list" aria-live="polite"></div>
+        </section>
+  </main>
 
-                    </a>
-                     <a href="index.html">
-					<article class="course-card" id="machine-learning-basics">
-						<div class="thumb thumb-4"></div>
-						<div class="info">
-							<h3>Machine Learning Basics</h3>
-							<p>Understand models and pipelines with practical projects.</p>
-							<div class="meta">10 lessons • Advanced</div>
-						</div>
-					</article>
-                    </a>
-                     <a href="index.html">
-                    <article class="course-card" id="advanced-css-techniques">
-						<div class="thumb thumb-5"></div>
-						<div class="info">
-							<h3>Advanced CSS Techniques</h3>
-							<p>Master modern CSS with animations, layouts, and responsive design.</p>
-							<div class="meta">7 lessons • Advanced</div>
-						</div>
-					</article>
-                    </a>
-                     <a href="index.html">
-                    <article class="course-card" id="python-for-data-science">
-                        <div class="thumb thumb-6"></div>
-                        <div class="info">
-                            <h3>Python for Data Science</h3>
-                            <p>Learn Python programming with a focus on data analysis and visualization.</p>
-                            <div class="meta">9 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="c++-programming">
-                        <div class="thumb thumb-7"></div>
-                        <div class="info">
-                            <h3>C++ Programming</h3>
-                            <p>Learn C++ programming with a focus on object-oriented design and memory management.</p>
-                            <div class="meta">12 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="javascript-for-web-development">
-                        <div class="thumb thumb-8"></div>
-                        <div class="info">
-                            <h3>JavaScript for Web Development</h3>
-                            <p>Learn JavaScript programming with a focus on web development and DOM manipulation.</p>
-                            <div class="meta">10 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="frontend-development">
-                        <div class="thumb thumb-9"></div>
-                        <div class="info">
-                            <h3>Frontend Development</h3>
-                            <p>Learn frontend development with HTML, CSS, and JavaScript.</p>
-                            <div class="meta">9 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="backend-development">
-                        <div class="thumb thumb-10"></div>
-                        <div class="info">
-                            <h3>Backend Development</h3>
-                            <p>Learn backend development with Node.js, Express, and databases.</p>
-                            <div class="meta">11 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-                      <a href="index.html">
-                    <article class="course-card" id="full-stack-development">
-                        <div class="thumb thumb-11"></div>
-                        <div class="info">
-                            <h3>Full Stack Development</h3>
-                            <p>Learn full stack development with both frontend and backend technologies.</p>
-                            <div class="meta">15 lessons • Advanced</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="cloud-computing">
-                        <div class="thumb thumb-12"></div>
-                        <div class="info">
-                            <h3>Cloud Computing</h3>
-                            <p>Learn cloud computing concepts and services with hands-on labs.</p>
-                            <div class="meta">10 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="data-science">
-                        <div class="thumb thumb-13"></div>
-                        <div class="info">
-                            <h3>Data Science</h3>
-                            <p>Learn data science concepts and techniques with a focus on data analysis and visualization.</p>
-                            <div class="meta">9 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="ai-machine-learning">
-                        <div class="thumb thumb-14"></div>
-                        <div class="info">
-                            <h3>AI & Machine Learning</h3>
-                            <p>Learn AI and machine learning concepts and techniques with hands-on projects.</p>
-                            <div class="meta">12 lessons • Advanced</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="python-for-data-science">
-                        <div class="thumb thumb-15"></div>
-                        <div class="info">
-                            <h3>Python for Data Science</h3>
-                            <p>Learn Python programming with a focus on data analysis and visualization.</p>
-                            <div class="meta">9 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-					 <a href="index.html">
-                    <article class="course-card" id="c++-programming">
-                        <div class="thumb thumb-16"></div>
-                        <div class="info">
-                            <h3>C++ Programming</h3>
-                            <p>Learn C++ programming with a focus on object-oriented design and memory management.</p>
-                            <div class="meta">12 lessons • Intermediate</div>
-                        </div>
-					</article>
-                    </a>
-
-
-				</div>
-			</section>
+		 	
 
 			<footer class="site-footer">
 			<div class="container footer-inner">
@@ -206,7 +69,127 @@
 			</div>
 		</footer>
 
+    <script>
+        const yearEl = document.getElementById('year') || document.getElementById('yearFooter');
+        if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    
+        const activeTags = new Set();
+
+        async function loadResources() {
+            try {
+                const res = await fetch('data.json');
+                const data = await res.json();
+                window.__resources = data;
+                renderTagRow(data);
+                renderResources(data);
+            } catch (err) {
+                const container = document.getElementById('resourcesList');
+                if (container) container.innerText = 'Failed to load resources. Please refresh the page.';
+                console.error('Error loading resources:', err);
+            }
+        }
+
+        function createCard(item) {
+            const tagsHtml = (item.tags || []).map(t => `<span class="tag-chip small">${t}</span>`).join(' ');
+            const el = document.createElement('article');
+            el.className = 'resource-card';
+            el.innerHTML = `
+                <div class="resource-main">
+                    <h3><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h3>
+                    <p class="muted">${item.description}</p>
+                    <div class="tag-row-small">${tagsHtml}</div>
+                    <div class="meta">${item.lessons} lessons • ${item.level}</div>
+                </div>
+                <div class="resource-action">
+                    <a class="btn-outline" href="${item.link}" target="_blank" rel="noopener">Open</a>
+                </div>
+            `;
+            return el;
+        }
+
+        function renderTagRow(data) {
+            const container = document.getElementById('tagRow');
+            if (!container) return;
+            const counts = {};
+            data.forEach(it => (it.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1));
+            container.innerHTML = '';
+            Object.keys(counts).sort().forEach(tag => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'tag-chip';
+                btn.dataset.tag = tag;
+                btn.textContent = `${tag} (${counts[tag]})`;
+                btn.addEventListener('click', () => {
+                    if (activeTags.has(tag)) {
+                        activeTags.delete(tag);
+                        btn.classList.remove('active');
+                    } else {
+                        activeTags.add(tag);
+                        btn.classList.add('active');
+                    }
+                    applyFilters();
+                });
+                container.appendChild(btn);
+            });
+        }
+
+        function renderResources(list) {
+            const container = document.getElementById('resourcesList');
+            if (!container) return;
+            container.innerHTML = '';
+            if (!list || list.length === 0) {
+                container.innerHTML = '<p>No courses found. Try adjusting your search or filters.</p>';
+                return;
+            }
+            const grid = document.createElement('div');
+            grid.className = 'course-grid resources-grid';
+            list.forEach(item => grid.appendChild(createCard(item)));
+            container.appendChild(grid);
+        }
+
+        function applyFilters() {
+            const q = (document.getElementById('resSearch') && document.getElementById('resSearch').value || '').toLowerCase();
+            const level = (document.getElementById('levelFilter') && document.getElementById('levelFilter').value || '').toLowerCase();
+            const all = window.__resources || [];
+            const active = Array.from(activeTags);
+            const filtered = all.filter(r => {
+                const matchesQ = q === '' || (r.title + ' ' + r.description).toLowerCase().includes(q);
+                const matchesLevel = level === '' || (r.level || '').toLowerCase() === level;
+                const matchesTags = active.length === 0 || (r.tags || []).some(t => active.includes(t));
+                return matchesQ && matchesLevel && matchesTags;
+            });
+            renderResources(filtered);
+        }
+
+        function injectCourseIcons() {
+            document.querySelectorAll('.course-card').forEach(card => {
+                if (card.querySelector('.card-icon')) return;
+                const icon = document.createElement('div');
+                icon.className = 'card-icon';
+                icon.innerHTML = '<svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="14" rx="2" stroke="#2563eb" stroke-width="1.5" fill="#eaf4ff"></rect><path d="M7 9h10" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"></path><path d="M7 13h6" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"></path></svg>';
+                card.insertBefore(icon, card.firstChild);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadResources();
+            injectCourseIcons();
+            const searchEl = document.getElementById('resSearch');
+            const levelEl = document.getElementById('levelFilter');
+            if (searchEl) searchEl.addEventListener('input', applyFilters);
+            if (levelEl) levelEl.addEventListener('change', applyFilters);
+            const clearBtn = document.getElementById('clearFilters');
+            if (clearBtn) {
+                clearBtn.addEventListener('click', () => {
+                    if (searchEl) searchEl.value = '';
+                    if (levelEl) levelEl.value = '';
+                    activeTags.clear();
+                    document.querySelectorAll('#tagRow .tag-chip.active').forEach(n => n.classList.remove('active'));
+                    applyFilters();
+                });
+            }
+        });
+    </script>
+
 </body>
 </html>
