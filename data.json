@@ -12,7 +12,7 @@
     "description": "Core programming concepts with hands-on exercises",
     "level": "Intermediate",
     "lessons": 8,
-    "link": "Courses.html#javascript-essentials",
+    "link": "Courses/javascript.html",
     "tags": ["javascript", "programming", "web"]
   },
   {
