@@ -18,7 +18,7 @@ const courses = [
     page: "courses/ml.html"   
   },
   {
-    title: "c++ Programming",
+    title: "C++ Programming",
     slug: "cpp",
     keywords: ["c++", "c++ programming", "cpp"],
     page: "courses/cpp.html"
@@ -39,7 +39,7 @@ const courses = [
     title: "mobile app development",
     slug: "mobile-app-dev",
     keywords: ["mobile app", "app development", "android", "ios"],
-    page: "courses/mobile-app-dev.html"
+    page: "courses/mobile.html"
   }
   
 ];
