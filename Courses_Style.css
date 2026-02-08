@@ -56,6 +56,11 @@ a {
 	color: var(--accent);
 }
 
+.main-nav {
+	display: flex;
+	align-items: center;
+}
+
 .main-nav a {
 	margin-left: 18px;
 	color: var(--muted);
@@ -80,6 +85,40 @@ a {
 	background: #2563eb;
 	transform: translateY(-2px);
 	box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+}
+
+/* Hamburger menu button */
+.nav-toggle {
+	display: none;
+	flex-direction: column;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 8px;
+	gap: 5px;
+	z-index: 1000;
+}
+
+.nav-toggle span {
+	width: 24px;
+	height: 2.5px;
+	background: #0f172a;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+	transition: all 0.3s ease;
+}
+
+.nav-toggle.active span:nth-child(1) {
+	transform: rotate(45deg) translate(8px, 8px);
+}
+
+.nav-toggle.active span:nth-child(2) {
+	opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+	transform: rotate(-45deg) translate(8px, -8px);
 }
 
 .course-grid {
@@ -443,4 +482,90 @@ a {
 
 .course-card .info {
 	flex: 1;
+}
+
+@media (max-width: 768px) {
+	.site-header {
+		padding: 12px 0;
+		position: relative;
+		z-index: 100;
+	}
+
+	.header-inner {
+		gap: 12px;
+	}
+
+	.logo {
+		font-size: 18px;
+	}
+
+	.nav-toggle {
+		display: flex;
+	}
+
+	.main-nav {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background: #fff;
+		flex-direction: column;
+		padding: 16px 20px;
+		gap: 12px;
+		border-bottom: 1px solid #e6eef8;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease;
+		border-radius: 0;
+		width: 100%;
+	}
+
+	.main-nav.active {
+		max-height: 250px;
+	}
+
+	.main-nav a {
+		margin-left: 0;
+		padding: 12px 0;
+		border-bottom: 1px solid #f0f4f8;
+	}
+
+	.main-nav a:last-child {
+		border-bottom: none;
+	}
+
+	.main-nav a.cta {
+		display: inline-block;
+		padding: 10px 16px;
+		background: var(--accent);
+		border: none;
+		margin-top: 8px;
+	}
+
+	.search-wrapper {
+		width: 100%;
+	}
+
+	#resSearch,
+	#searchInput {
+		width: 100%;
+	}
+
+	.filter-controls {
+		flex-direction: column;
+	}
+
+	.filters-row {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.search-input-wrapper,
+	.select-filter {
+		width: 100%;
+	}
+
+	.tag-row {
+		flex-wrap: wrap;
+	}
 }
