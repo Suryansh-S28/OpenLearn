@@ -8,7 +8,12 @@
 	--card:#ffffff;
 	--radius:12px;
 }
-
+.courses-link{
+    color:var(--accent);
+    text-decoration:none;
+    font-weight:600;
+    transition:color 0.3s ease;
+}
 /* 
    GLOBAL STYLES
   */
@@ -32,29 +37,27 @@ body{
 /* 
    HEADER & NAVIGATION
     */
-.site-header{background:transparent;padding:18px 0;border-bottom:1px solid #e6eef8;transition:all 0.3s ease}
-.header-inner{display:flex;align-items:center;justify-content:space-between}
+.site-header{background:#fff;padding:12px 0;border-bottom:1px solid #e6eef8;transition:all 0.3s ease;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(15,23,42,0.05)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;max-width:1100px;margin:0 auto;padding:0 20px;gap:20px}
 
 /* Logo styling */
-.logo{font-weight:700;color:#0f172a;text-decoration:none;font-size:20px;transition:color 0.3s ease}
+.logo{font-weight:700;color:#0f172a;text-decoration:none;font-size:20px;transition:color 0.3s ease;white-space:nowrap;flex-shrink:0}
 .logo:hover{color:var(--accent)}
 .logo span{color:var(--accent)}
 
 /* Navigation links */
-.main-nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600;transition:all 0.3s ease}
+.main-nav{display:flex;gap:24px;align-items:center}
+.main-nav a{color:var(--muted);text-decoration:none;font-weight:600;transition:all 0.3s ease;font-size:14px}
 .main-nav a:hover{color:var(--accent)}
 .main-nav a.cta{background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;box-shadow:0 4px 12px rgba(59,130,246,0.3)}
 .main-nav a.cta:hover{background:#2563eb;transform:translateY(-2px);box-shadow:0 6px 16px rgba(59,130,246,0.4)}
 
 /* Hamburger menu button */
-.nav-toggle{display:none;flex-direction:column;background:none;border:none;cursor:pointer;padding:8px;gap:5px;z-index:1000}
+.nav-toggle{display:none;flex-direction:column;background:none;border:none;cursor:pointer;padding:0;gap:5px}
 .nav-toggle span{width:24px;height:2.5px;background:#0f172a;border-radius:2px;transition:all 0.3s ease}
 .nav-toggle.active span:nth-child(1){transform:rotate(45deg) translate(8px, 8px)}
 .nav-toggle.active span:nth-child(2){opacity:0}
 .nav-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(8px, -8px)}
-
-/* Main navigation */
-.main-nav{display:flex;align-items:center}
 
 /*	
    HERO SECTION
@@ -144,26 +147,45 @@ body{
 /*	
    RESPONSIVE DESIGN (MOBILE)
  */
+@media (max-width:1024px){
+   .header-inner{gap:16px}
+   .main-nav{gap:20px}
+   .main-nav a{font-size:13px}
+}
+
 @media (max-width:900px){
 	.hero-inner{flex-direction:column}
 	.hero-visual{width:100%}
 	.about-grid{grid-template-columns:1fr}
+	.main-nav{gap:16px}
 }
 
 @media (max-width:768px){
-	.site-header{padding:12px 0;position:relative;z-index:100}
-	.header-inner{gap:12px}
-	.logo{font-size:18px}
 	.nav-toggle{display:flex}
-	.main-nav{position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:16px 20px;gap:12px;border-bottom:1px solid #e6eef8;max-height:0;overflow:hidden;transition:max-height 0.3s ease;border-radius:0;width:100%}
-	.main-nav.active{max-height:250px}
-	.main-nav a{margin-left:0;padding:12px 0;border-bottom:1px solid #f0f4f8}
-	.main-nav a:last-child{border-bottom:none}
-	.main-nav a.cta{display:inline-block;padding:10px 16px;background:var(--accent);border:none;margin-top:8px}
-	.hero-copy h1{font-size:32px;margin:0 0 12px}
-	.lead{font-size:16px;margin:0 0 20px}
+	.site-header{padding:10px 0}
+	.header-inner{padding:0 16px;flex-wrap:nowrap}
+	.logo{font-size:18px}
+	.main-nav{position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:16px;gap:12px;border-bottom:1px solid #e6eef8;max-height:0;overflow:hidden;transition:max-height 0.3s ease;border-radius:0}
+	.main-nav.active{max-height:280px;overflow-y:auto}
+	.main-nav a{padding:12px 8px;margin:0;border-radius:0;font-size:14px;width:100%;display:block}
+	.main-nav a.cta{padding:10px 14px;background:var(--accent);color:#fff;border-radius:6px;width:auto}
+	.hero-copy h1{font-size:32px}
+	.lead{font-size:16px}
 	.hero-stats{flex-direction:column;gap:16px}
 	.search-wrapper{width:100%}
+	#searchInput{width:100%}
+}
+
+@media (max-width:480px){
+	.site-header{padding:8px 0}
+	.header-inner{padding:0 12px}
+	.logo{font-size:16px}
+	.main-nav{padding:12px}
+	.main-nav a{padding:10px 6px;font-size:13px}
+	.hero-copy h1{font-size:24px}
+	.lead{font-size:14px}
+	.hero-stats{gap:12px}
+	.container{padding:0 16px00%}
 	#searchInput{width:100%}
 }
 

@@ -4,7 +4,7 @@
     "description": "Learn to create websites that look great on any device",
     "level": "Beginner",
     "lessons": 4,
-    "link": "courses/rwd.html",
+    "link": "Courses/rwd.html",
     "tags": ["web", "html", "css"]
   },
   {
@@ -12,7 +12,7 @@
     "description": "Core programming concepts with hands-on exercises",
     "level": "Intermediate",
     "lessons": 8,
-    "link": "courses/javascript.html",
+    "link": "Courses/javascript.html",
     "tags": ["javascript", "programming", "web"]
   },
   {
@@ -20,7 +20,7 @@
     "description": "Create compelling charts and dashboards",
     "level": "Beginner",
     "lessons": 6,
-    "link": "courses/data-visualization.html",
+    "link": "Courses/data-visualization.html",
     "tags": ["data", "visualization", "charts"]
   },
   {
@@ -28,23 +28,23 @@
     "description": "Understand models and pipelines with practical projects",
     "level": "Advanced",
     "lessons": 10,
-    "link": "courses/ml.html",
+    "link": "Courses/ml.html",
     "tags": ["ml", "ai", "python"]
   },
   {
-    "title": "Python for Data Science",
-    "description": "Learn Python programming with a focus on data analysis and visualization",
-    "level": "Intermediate",
+    "title": "Web Design with HTML & CSS",
+    "description": "Learn HTML and CSS fundamentals for building modern websites",
+    "level": "Beginner",
     "lessons": 9,
-    "link": "courses/python-for-data-science.html",
-    "tags": ["python", "data", "analysis"]
+    "link": "Courses/web-design.html",
+    "tags": ["html", "css", "web-design"]
   },
   {
     "title": "Data Science Masterclass",
     "description": "Complete guide to data science concepts and techniques with real-world applications",
     "level": "Intermediate",
     "lessons": 12,
-    "link": "courses/data-science-masterclass.html",
+    "link": "Courses/data-science.html",
     "tags": ["data", "machine-learning", "analysis"]
   },
   {
@@ -52,7 +52,7 @@
     "description": "Learn C++ programming with a focus on object-oriented design and memory management",
     "level": "Intermediate",
     "lessons": 10,
-    "link": "courses/cpp-programming.html",
+    "link": "Courses/cpp.html",
     "tags": ["cpp", "programming", "systems"]
   },
   {
@@ -60,7 +60,7 @@
     "description": "Deep dive into AI and machine learning concepts and techniques with hands-on projects",
     "level": "Advanced",
     "lessons": 15,
-    "link": "courses/advanced-ai-ml.html",
+    "link": "Courses/ml.html",
     "tags": ["ai", "ml", "deep-learning"]
   },
   {
@@ -68,63 +68,64 @@
     "description": "Learn cloud computing concepts and services with hands-on labs",
     "level": "Intermediate",
     "lessons": 8,
-    "link": "courses/cloud-computing.html",
+    "link": "Courses/cloud.html",
     "tags": ["cloud", "aws", "devops"]
   },
   {
-    "title": "Frontend Development",
-    "description": "Master modern frontend frameworks and libraries for building interactive UIs",
+    "title": "Java masterclass",
+    "description": "Master Java programming concepts and object-oriented design patterns",
     "level": "Intermediate",
     "lessons": 11,
-    "link": "courses/frontend-development.html",
-    "tags": ["web", "javascript", "react"]
+    "link": "Courses/Java.html",
+    "tags": ["java", "programming", "oop"]
+
   },
   {
     "title": "Backend Development",
     "description": "Build scalable server-side applications using Node.js and Express",
     "level": "Intermediate",
     "lessons": 10,
-    "link": "courses/backend-development.html",
+    "link": "Courses/nodejs.html",
     "tags": ["backend", "nodejs", "programming"]
   },
   {
-    "title": "Database Design & SQL",
+    "title": "Database Design and SQL",
     "description": "Learn database concepts, SQL queries, and optimization techniques",
     "level": "Beginner",
     "lessons": 7,
-    "link": "courses/database-design-sql.html",
+    "link": "Courses/database.html",
     "tags": ["database", "sql", "data"]
   },
   {
-    "title": "DevOps & CI/CD",
+    "title": "DevOps Masterclass",
     "description": "Master continuous integration and deployment pipelines",
     "level": "Advanced",
     "lessons": 13,
-    "link": "courses/devops-cicd.html",
+    "link": "Courses/devops.html",
     "tags": ["devops", "cloud", "automation"]
   },
   {
-    "title": "React.js Fundamentals",
+    "title": "Frontend development with React",
     "description": "Build modern web applications with React and component-based architecture",
     "level": "Beginner",
     "lessons": 9,
-    "link": "courses/react-fundamentals.html",
-    "tags": ["react", "javascript", "web"]
+    "link": "Courses/react.html",
+    "tags": ["react", "javascript", "web", "frontend"]
   },
   {
-    "title": "Python Web Development",
-    "description": "Create web applications using Django and Flask frameworks",
+    "title": "Backend Development with Node.js",
+    "description": "Create web applications using Node.js and Express frameworks",
     "level": "Intermediate",
     "lessons": 11,
-    "link": "courses/python-web-development.html",
-    "tags": ["python", "web", "backend"]
+    "link": "Courses/nodejs.html",
+    "tags": ["nodejs", "express", "backend"]
   },
   {
     "title": "Mobile App Development",
     "description": "Build cross-platform mobile applications with React Native",
     "level": "Advanced",
     "lessons": 14,
-    "link": "courses/mobile-app-development.html",
+    "link": "Courses/mobile.html",
     "tags": ["mobile", "react-native", "programming"]
   }
 ]
