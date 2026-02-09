@@ -4,7 +4,7 @@
     "description": "Learn to create websites that look great on any device",
     "level": "Beginner",
     "lessons": 4,
-    "link": "Courses/rwd.html",
+    "link": "courses/rwd.html",
     "tags": ["web", "html", "css"]
   },
   {
@@ -12,7 +12,7 @@
     "description": "Core programming concepts with hands-on exercises",
     "level": "Intermediate",
     "lessons": 8,
-    "link": "Courses/javascript.html",
+    "link": "courses/javascript.html",
     "tags": ["javascript", "programming", "web"]
   },
   {
